@@ -1,0 +1,126 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: initial;
+    background-color: #068010;
+}
+
+
+.navbar {
+    background-color: #cfcc1d;
+    padding: 10px 0;
+}
+
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+
+.navbar a:hover {
+    color: #ff6600;
+}
+
+
+.hero {
+    background-image: linear-gradient(rgba(300,300,300,0.70), rgba(300,300,300,0.70)),url('imagens/481528.jpg');
+    background-size: center;
+    padding: 60px 0;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    color: #be430a;
+    text-align: center;
+}
+
+
+.hero p 
+{
+    font-size: 20px;
+    color: #be430a;
+    text-align: center;
+}
+
+
+.tourist-spots {
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+}
+
+
+.tourist-spot {
+    flex: 1;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.tourist-spot img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.tourist-spot:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+
+.footer {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.footer img {
+    max-width: 50px;
+    height: auto;
+}
+
+
+.footer-content
+{
+    text-align: center;
+}
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
